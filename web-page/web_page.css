@@ -1,0 +1,70 @@
+/* General Styling */
+.page {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fef8fb;
+    align-items: center;
+    display: flex;
+    flex-direction: column;   
+}
+div.links {
+    padding: 10px;
+    text-align: justify;
+    text-align: right;
+}
+div.links a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+.logo {
+    font-size: 80px;
+    color: rgb(136 73 116);
+    margin: 25px;
+    font-weight: 550;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Search Bar */
+.search-bar {
+    width: 60%;
+    padding: 12px;
+    margin: 20px;
+    font-size: 16px;
+    border: 2px solid #d0c3c8;
+    border-radius: 25px;
+    display: flex;
+    margin-left: 10px;
+    text-decoration: none;
+    gap: 10px;
+}
+.icon i{
+    text-decoration: none;
+    align-items: right;
+}
+/* Shortcuts Section */
+.shortcuts {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.shortcuts a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    background-color: #f5d7ff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.icon{
+    font-size: 20px;
+}
+.shortcuts a:hover i {
+    color: white;
+}
